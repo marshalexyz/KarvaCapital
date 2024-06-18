@@ -3,10 +3,15 @@ import React from 'react';
 import andromeda from "../assets/img/andromeda.png";
 import sei from "../assets/img/sei.png";
 import babylon from "../assets/img/babylon.png";
+import rose from "../assets/img/rose.png";
+import pendle from "../assets/img/pendle.png";
+import vanry from "../assets/img/vanry.png";
 import blockx from "../assets/img/blockx.png";
 import uptick from "../assets/img/uptick.png";
+import notcoin from "../assets/img/notcoin.png";
+import api3 from "../assets/img/API3.png";
 import celestia from "../assets/img/celestia.png";
-import coreum from "../assets/img/coreum.png";
+import render from "../assets/img/rendertoken.png";
 import defund from "../assets/img/defund.png";
 import dymension from "../assets/img/dymension.png";
 import gitopia from "../assets/img/gitopia.png";
@@ -59,27 +64,27 @@ export const Testnet = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2> a Portofolio of Karva Capital✨</h2>
-                        <p>Here's a lil portofolio's on Cryptocurrency</p>
+                        <p>Disclaimer: not all altcoin portfolios are displayed. below is just a portion of the altcoin portfolio owned by Karva Capital</p>
                         <br></br>
                         <br></br>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                            <a href="https://bitcoin.org/en/" target="_blank">  <img src={andromeda} alt="Image" /></a>
-                            <a href="https://bitcoin.org/en/" target="_blank">  <h5>Bitcoin</h5></a>
+                            <a href="https://oasisprotocol.org/" target="_blank">  <img src={rose} alt="Image" /></a>
+                            <a href="https://oasisprotocol.org/" target="_blank">  <h5>Oasis Protocol</h5></a>
                             </div>
 
                             <div className="item">
-                            <a href="https://vanarchain.com/ko/vanry.html" target="_blank"> <img src={babylon} alt="Image" /></a>
+                            <a href="https://vanarchain.com/ko/vanry.html" target="_blank"> <img src={vanry} alt="Image" /></a>
                             <a href="https://vanarchain.com/ko/vanry.html" target="_blank">  <h5>Vanar Chain</h5></a>
                             </div>
 
                             <div className="item">
-                            <a href="https://www.renzoprotocol.com/" target="_blank"> <img src={blockx} alt="Image" /></a>
-                            <a href="https://www.renzoprotocol.com/" target="_blank">  <h5>Renzo</h5></a>
+                            <a href="https://notco.in/" target="_blank"> <img src={notcoin} alt="Image" /></a>
+                            <a href="https://notco.in/" target="_blank">  <h5>Notcoin</h5></a>
                             </div>
 
                             <div className="item">
-                            <a href="https://rendernetwork.com/" target="_blank"> <img src={coreum} alt="Image" /></a>
+                            <a href="https://rendernetwork.com/" target="_blank"> <img src={render} alt="Image" /></a>
                             <a href="https://rendernetwork.com/" target="_blank">  <h5>Render Token</h5></a>
                             </div>
 
@@ -89,9 +94,16 @@ export const Testnet = () => {
                             </div>
 
                             <div className="item">
-                            <a href="https://www.pendle.finance/" target="_blank"> <img src={humans} alt="Image" /></a>
+                            <a href="https://www.pendle.finance/" target="_blank"> <img src={pendle} alt="Image" /></a>
                             <a href="https://www.pendle.finance/" target="_blank"> <h5>Pendle</h5></a>
                             </div>
+
+                            <div className="item">
+                            <a href="https://api3.org/" target="_blank"> <img src={api3} alt="Image" /></a>
+                            <a href="https://api3.org/" target="_blank"> <h5>API3</h5></a>
+                            </div>
+
+
                         </Carousel>
                     </div>
                 </div>

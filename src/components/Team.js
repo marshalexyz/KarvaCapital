@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { TeamCard } from "./TeamCard";
-import projImg1 from "../assets/img/nodex.png";
-import projImg2 from "../assets/img/faz.png";
+import projImg1 from "../assets/img/karva.png";
+import projImg2 from "../assets/img/solana.png";
+import AC from "../assets/img/akademicrypto.jpg";
 import projImg3 from "../assets/img/team9.png";
 import projImg4 from "../assets/img/team7.png";
 import projImg5 from "../assets/img/team6.png";
@@ -20,24 +21,29 @@ export const Team = () => {
 
     },
     {
+      title: "CryptoPunk",
+      description: "Co-Founder",
+      imgUrl: projImg5,
+    },
+    {
+      title: "Akademi Crypto",
+      description: "Inspiration",
+      imgUrl: AC,
+    },        
+    {
       title: "Solana",
-      description: "Core Team",
+      description: "Partnership",
       imgUrl: projImg2,
     },
     {
       title: "Binance Labs",
-      description: "Core Team",
+      description: "Partnership",
       imgUrl: projImg4,
     },
     {
       title: "BlackRock",
-      description: "Core Team",
+      description: "Partnership",
       imgUrl: projImg3,
-    },
-    {
-      title: "CryptoPunk",
-      description: "Core Team",
-      imgUrl: projImg5,
     },
     
   ];
@@ -55,7 +61,7 @@ export const Team = () => {
                 <br></br>
                 <br></br>
                 <center><h2>Team</h2>
-                <p>We are a professional PoS Validator, Stake with Us!</p>
+                <p>We are a Unity!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                   </Nav>

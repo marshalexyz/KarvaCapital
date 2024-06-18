@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Node Runner", "Crypto Enthusiast" ];
+  const toRotate = [ "Karva Capital", "Crypto Enthusiast" ];
   const period = 2000;
   const current = new Date();
   const date = `${current.getDate()}-${current.getMonth()+1}-${current.getFullYear()}`;
@@ -61,9 +61,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">{date}</span>
                 <h1>{`Karva Capital⚡`} </h1>
-                  <h4>I'm an independent node runner for blockchain projects.</h4>
+                  <h4>I'm an independent user for blockchain projects.</h4>
                   <br></br>
-                  <i><q>Independent means that it is run by blockchain geeks for blockchain and crypto enthusiasts just like you ❤️. No VCs or institutional support. We indeed care about keeping the stake decentralized.</q></i>
+                  <i><q>Independent means that it is run by blockchain geeks for blockchain and crypto enthusiasts just like you ❤️. No VCs or institutional support. We indeed care about keeping the community decentralized.</q></i>
               </div>}
             </TrackVisibility>
           </Col>
